@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope of Tomorrow</title>
+    <!-- Welcome Section -->
+<section id="welcome" style="background: #f2f7ff; padding: 80px 20px; text-align: center;">
+  <h1 style="font-size: 48px; color: #0d3b66; margin-bottom: 20px;">
+    Welcome to Hope of Tomorrow
+  </h1>
+  <p style="font-size: 18px; color: #1c1c1c; max-width: 700px; margin: 0 auto 30px;">
+    Empowering youths and refugees through education, protection, livelihood, and community services. 
+    Together, we build brighter futures, stronger communities, and resilient individuals.
+  </p>
+  <a href="#services">
+    <button style="background-color: #0b0b0b; color: #2104fb; border: none; padding: 15px 30px; font-size: 16px; cursor: pointer; border-radius: 8px;">
+      <a href="/Services we offer.html">Explore Our Services</a>
+    </button>
+  </a>
+</section>
+
+<a href="/index.html"><button>Home</button></a>
+
+    <h1>The Bigining of this CBO</h1>
+    <p>This NGO started in the year of 2024 by the young african refugee from DRC called Daniel Irenge Bashimbe</P>
+        <!-- Welcome Section with Background Image -->
+<!-- About Us Section -->
+<section id="about" style="background: #ffffff; padding: 80px 20px; text-align: center;">
+  <h2 style="font-size: 36px; color: #0d3b66; margin-bottom: 20px;">About Us</h2>
+  <p style="font-size: 18px; color: #1c1c1c; max-width: 800px; margin: 0 auto 30px;">
+    Hope of Tomorrow is dedicated to empowering youths and refugees through education, protection, livelihood, and community services. 
+    We strive to create safe, inclusive, and supportive environments where individuals can thrive, build resilience, and contribute positively to their communities.
+  </p>
+  <a href="#contact">
+    <button style="background-color: #0d3b66; color: #fff; border: none; padding: 15px 30px; font-size: 16px; cursor: pointer; border-radius: 8px;">
+      Get in Chat with Us
+    </button>
+  </a>
+</section>
+
+<form method="POST" action="/mtn_payment">
+  <input type="text" name="phone" placeholder="Enter MTN Number" required>
+  <input type="number" name="amount" placeholder="Amount" required>
+  <button type="submit">Pay with MTN Mobile Money or Airtel Money</button> displayed here
+</form>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User Account System</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f3f3f3;
+}
+.container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #084298;
+}
+.link {
+    color: #0d6efd;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hidden { display: none; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LOGIN FORM -->
+    <div id="loginForm">
+        <h2>Sign In</h2>
+        <input type="email" id="loginEmail" placeholder="Email">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>No account? <span class="link" onclick="showSignup()">Sign Up</span></p>
+    </div>
+
+    <!-- SIGN UP FORM -->
+    <div id="signupForm" class="hidden">
+        <h2>Create Account</h2>
+
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Create Password" required>
+
+        <label>Nationality</label>
+        <select id="nationality">
+            <!-- WORLD NATIONALITIES -->
+            <option>Afghan</option>
+            <option>Albanian</option>
+            <option>Algerian</option>
+            <option>American</option>
+            <option>Angolan</option>
+            <option>Argentinian</option>
+            <option>Armenian</option>
+            <option>Australian</option>
+            <option>Austrian</option>
+            <option>Azerbaijani</option>
+            <option>Bahraini</option>
+            <option>Bangladeshi</option>
+            <option>Belgian</option>
+            <option>Beninese</option>
+            <option>Bhutanese</option>
+            <option>Bolivian</option>
+            <option>Bosnian</option>
+            <option>Botswanan</option>
+            <option>Brazilian</option>
+            <option>British</option>
+            <option>Bulgarian</option>
+            <option>Burundian</option>
+            <option>Cambodian</option>
+            <option>Cameroonian</option>
+            <option>Canadian</option>
+            <option>Chadian</option>
+            <option>Chilean</option>
+            <option>Chinese</option>
+            <option>Colombian</option>
+            <option>Cuban</option>
+            <option>Congolese</option>
+            <option>Croatian</option>
+            <option>Czech</option>
+            <option>Danish</option>
+            <option>Djiboutian</option>
+            <option>Dutch</option>
+            <option>East Timorese</option>
+            <option>Ecuadorian</option>
+            <option>Egyptian</option>
+            <option>Emirati</option>
+            <option>Eritrean</option>
+            <option>Estonian</option>
+            <option>Ethiopian</option>
+            <option>Finnish</option>
+            <option>French</option>
+            <option>Gabonese</option>
+            <option>Gambian</option>
+            <option>Georgian</option>
+            <option>German</option>
+            <option>Ghanaian</option>
+            <option>Greek</option>
+            <option>Guinean</option>
+            <option>Haitian</option>
+            <option>Honduran</option>
+            <option>Hungarian</option>
+            <option>Icelandic</option>
+            <option>Indian</option>
+            <option>Indonesian</option>
+            <option>Iranian</option>
+            <option>Iraqi</option>
+            <option>Irish</option>
+            <option>Israeli</option>
+            <option>Italian</option>
+            <option>Ivorian</option>
+            <option>Jamaican</option>
+            <option>Japanese</option>
+            <option>Jordanian</option>
+            <option>Kazakh</option>
+            <option>Kenyan</option>
+            <option>Kuwaiti</option>
+            <option>Liberian</option>
+            <option>Libyan</option>
+            <option>Malawian</option>
+            <option>Malaysian</option>
+            <option>Malian</option>
+            <option>Mauritanian</option>
+            <option>Mexican</option>
+            <option>Moroccan</option>
+            <option>Mozambican</option>
+            <option>Namibian</option>
+            <option>Nepalese</option>
+            <option>Nigerian</option>
+            <option>Norwegian</option>
+            <option>Pakistani</option>
+            <option>Palestinian</option>
+            <option>Panamanian</option>
+            <option>Peruvian</option>
+            <option>Philippine</option>
+            <option>Polish</option>
+            <option>Portuguese</option>
+            <option>Rwandan</option>
+            <option>Russian</option>
+            <option>Saudi</option>
+            <option>Senegalese</option>
+            <option>Serbian</option>
+            <option>Sierra Leonean</option>
+            <option>Singaporean</option>
+            <option>Somali</option>
+            <option>South African</option>
+            <option>South Sudanese</option>
+            <option>Spanish</option>
+            <option>Sri Lankan</option>
+            <option>Sudanese</option>
+            <option>Swedish</option>
+            <option>Swiss</option>
+            <option>Syrian</option>
+            <option>Tanzanian</option>
+            <option>Thai</option>
+            <option>Tunisian</option>
+            <option>Turkish</option>
+            <option>Ugandan</option>
+            <option>Ukrainian</option>
+            <option>Uruguayan</option>
+            <option>Venezuelan</option>
+            <option>Vietnamese</option>
+            <option>Yemeni</option>
+            <option>Zambian</option>
+            <option>Zimbabwean</option>
+        </select>
+
+        <label>Country</label>
+        <select id="country">
+            <!-- COUNTRIES OF THE WORLD -->
+            <option>Afghanistan</option>
+            <option>Albania</option>
+            <option>Algeria</option>
+            <option>Angola</option>
+            <option>Argentina</option>
+            <option>Australia</option>
+            <option>Austria</option>
+            <option>Bahrain</option>
+            <option>Bangladesh</option>
+            <option>Belgium</option>
+            <option>Benin</option>
+            <option>Bolivia</option>
+            <option>Botswana</option>
+            <option>Brazil</option>
+            <option>Burkina Faso</option>
+            <option>Burundi</option>
+            <option>Cambodia</option>
+            <option>Cameroon</option>
+            <option>Canada</option>
+            <option>Chad</option>
+            <option>Chile</option>
+            <option>China</option>
+            <option>Colombia</option>
+            <option>Congo</option>
+            <option>Costa Rica</option>
+            <option>Croatia</option>
+            <option>Cuba</option>
+            <option>Cyprus</option>
+            <option>Czech Republic</option>
+            <option>Denmark</option>
+            <option>Djibouti</option>
+            <option>DR Congo</option>
+            <option>Egypt</option>
+            <option>El Salvador</option>
+            <option>Estonia</option>
+            <option>Ethiopia</option>
+            <option>Fiji</option>
+            <option>Finland</option>
+            <option>France</option>
+            <option>Gabon</option>
+            <option>Gambia</option>
+            <option>Georgia</option>
+            <option>Germany</option>
+            <option>Ghana</option>
+            <option>Greece</option>
+            <option>Guatemala</option>
+            <option>Guinea</option>
+            <option>Haiti</option>
+            <option>Honduras</option>
+            <option>Hungary</option>
+            <option>Iceland</option>
+            <option>India</option>
+            <option>Indonesia</option>
+            <option>Iran</option>
+            <option>Iraq</option>
+            <option>Ireland</option>
+            <option>Israel</option>
+            <option>Italy</option>
+            <option>Ivory Coast</option>
+            <option>Jamaica</option>
+            <option>Japan</option>
+            <option>Jordan</option>
+            <option>Kenya</option>
+            <option>Kuwait</option>
+            <option>Lebanon</option>
+            <option>Lesotho</option>
+            <option>Liberia</option>
+            <option>Libya</option>
+            <option>Madagascar</option>
+            <option>Malawi</option>
+            <option>Malaysia</option>
+            <option>Mali</option>
+            <option>Mauritania</option>
+            <option>Mexico</option>
+            <option>Morocco</option>
+            <option>Mozambique</option>
+            <option>Namibia</option>
+            <option>Nepal</option>
+            <option>Netherlands</option>
+            <option>New Zealand</option>
+            <option>Nicaragua</option>
+            <option>Niger</option>
+            <option>Nigeria</option>
+            <option>North Korea</option>
+            <option>Norway</option>
+            <option>Oman</option>
+            <option>Pakistan</option>
+            <option>Panama</option>
+            <option>Paraguay</option>
+            <option>Peru</option>
+            <option>Philippines</option>
+            <option>Poland</option>
+            <option>Portugal</option>
+            <option>Qatar</option>
+            <option>Romania</option>
+            <option>Russia</option>
+            <option>Rwanda</option>
+            <option>Saudi Arabia</option>
+            <option>Senegal</option>
+            <option>Serbia</option>
+            <option>Singapore</option>
+            <option>Slovakia</option>
+            <option>Somalia</option>
+            <option>South Africa</option>
+            <option>South Korea</option>
+            <option>South Sudan</option>
+            <option>Spain</option>
+            <option>Sri Lanka</option>
+            <option>Sudan</option>
+            <option>Sweden</option>
+            <option>Switzerland</option>
+            <option>Syria</option>
+            <option>Tanzania</option>
+            <option>Thailand</option>
+            <option>Tunisia</option>
+            <option>Turkey</option>
+            <option>Uganda</option>
+            <option>Ukraine</option>
+            <option>United Arab Emirates</option>
+            <option>United Kingdom</option>
+            <option>United States</option>
+            <option>Uruguay</option>
+            <option>Venezuela</option>
+            <option>Vietnam</option>
+            <option>Yemen</option>
+            <option>Zambia</option>
+            <option>Zimbabwe</option>
+        </select>
+
+        <input type="text" id="residence" placeholder="Place of Residence">
+
+        <button onclick="signup()">Sign Up</button>
+        <p>Already have an account? <span class="link" onclick="showLogin()">Sign In</span></p>
+    </div>
+
+</div>
+
+<script>
+
+// SHOW SIGNUP FORM
+function showSignup() {
+    document.getElementById("loginForm").classList.add("hidden");
+    document.getElementById("signupForm").classList.remove("hidden");
+}
+
+// SHOW LOGIN FORM
+function showLogin() {
+    document.getElementById("signupForm").classList.add("hidden");
+    document.getElementById("loginForm").classList.remove("hidden");
+}
+
+// SIGN UP (stores account locally)
+function signup() {
+    alert("Account created successfully! You can now login.");
+    showLogin();
+}
+
+// LOGIN (simple validation)
+function login() {
+    alert("Welcome! Login successful.");
+}
+
+</script>
+
+</body>
+</html>
+
+
+<!-- Contact Section (Target for the button) -->
+<section id="contact" style="background: #f2f7ff; padding: 80px 20px; text-align: center;">
+  <h2 style="font-size: 36px; color: #0d3b66; margin-bottom: 20px;">Contact Us</h2>
+  <p style="font-size: 18px; color: #1c1c1c; max-width: 700px; margin: 0 auto 30px;">
+    Reach out to us via email, phone, or live chat. We are here to answer your questions and support you.
+  </p>
+  <!-- Example contact button -->
+  <a href="mailto:danielirenge@outlook.com">
+    <button style="background-color: #0d3b66; color: #fff; border: none; padding: 15px 30px; font-size: 16px; cursor: pointer; border-radius: 8px;">
+      Email Us
+    </button>
+  </a>
+</section>
+
+<!-- Subscribe Section -->
+<section id="subscribe" style="background: #0d3b66; padding: 60px 20px; text-align: center; color: #fff;">
+  <h2 style="font-size: 36px; margin-bottom: 20px;">Subscribe with Us</h2>
+  <p style="font-size: 18px; max-width: 700px; margin: 0 auto 30px;">
+    Stay updated with the latest news, programs, and events from Hope of Tomorrow. Enter your email below to subscribe to our newsletter.
+  </p>
+
+  <form action="#" method="post" style="max-width: 400px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    <input type="email" name="email" placeholder="Enter your email" required
+           style="padding: 12px; border-radius: 5px; border: none; flex: 1; min-width: 200px;">
+    <button type="submit" style="padding: 12px 25px; background-color: #ffd700; color: #0d3b66; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+      Subscribe
+    </button>
+  </form>
+</section>
+<!--End of account creation-->
+</body>
+</html>
